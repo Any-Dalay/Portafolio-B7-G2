@@ -39,3 +39,11 @@ footer{
 .text-shadow-1 {
     text-shadow: 0 .125rem .25rem rgba(0, 0, 0, 1);
 }
+
+
+.pixelify-sans-uniquifier {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
