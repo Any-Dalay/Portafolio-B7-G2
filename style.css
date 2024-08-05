@@ -1,19 +1,23 @@
 
 body{
-    background-color: rgba(253, 134, 170, 0.877);
+    background-color: rgba(235, 148, 250, 0.877);
 }
 
 nav{
     background-color: rgb(86, 0, 167);
 }
 
+
 #presentacion{
-    height: 86vh;
-/*
+    min-height: 88vh;
     display: flex;
     justify-content: start;
     align-items: center;
-*/
+
+    background-image: url('assets/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .proyecto {
