@@ -14,7 +14,7 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 ![Habilidades](assets/2.png)
 ![Proyectos](assets/3.png)
 ![Testimonios](assets/4.png)
-![HContacto](assets/5.png)
+![Contacto](assets/5.png)
 ## Tecnologías
 
 * HTML
