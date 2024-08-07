@@ -16,7 +16,7 @@ typewriter
   .pauseFor(1000)
   .start();
 
-  let frase = document.getElementById('frase');
+let frase = document.getElementById('frase');
 
 let typewriterFrase = new Typewriter(frase, {
   loop: true,
@@ -31,3 +31,36 @@ typewriterFrase
   .typeString('Reshma Saujani')
   .pauseFor(1000)
   .start();
+
+
+let audioElement; // Variable para almacenar el objeto Audio
+const mainElement = document.querySelector('main'); // Seleccionar la etiqueta <main>
+mainElement.addEventListener('click', function () {
+  if (!audioElement) {
+    audioElement = new Audio('assets/music/Ariana.mp3');
+    audioElement.volume = 0.1;
+  }
+  audioElement.play();
+});
+
+var audio = document.getElementById("miAudio");
+const pauseButton = document.getElementById('pauseButton');
+pauseButton.addEventListener('click', function () {
+  if (audio.paused) {
+    audio.play();
+    pauseButton.innerHTML = '<i class="fas fa-pause"></i> Pausar';
+} else {
+    audio.pause();
+    pauseButton.innerHTML = '<i class="fas fa-play"></i> Reproducir';
+}
+});
+
+
+async function copiarAlPortapapeles(texto) {
+  try {
+    await navigator.clipboard.writeText(texto);
+    alert('Texto copiado al portapapeles');
+  } catch (err) {
+    console.error('Error al copiar:', err);
+  }
+}
