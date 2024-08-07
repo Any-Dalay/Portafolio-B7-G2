@@ -33,15 +33,7 @@ typewriterFrase
   .start();
 
 
-let audioElement; // Variable para almacenar el objeto Audio
-const mainElement = document.querySelector('main'); // Seleccionar la etiqueta <main>
-mainElement.addEventListener('click', function () {
-  if (!audioElement) {
-    audioElement = new Audio('assets/music/Ariana.mp3');
-    audioElement.volume = 0.1;
-  }
-  audioElement.play();
-});
+
 
 var audio = document.getElementById("miAudio");
 const pauseButton = document.getElementById('pauseButton');
