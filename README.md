@@ -22,4 +22,4 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 * Bootstrap
 * JavaScript
 ---
-Desarrollado con 💖 por [Anadalay](https://www.linkedin.com/in/anadalay-laureani-longino-11bbaa26b/) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/).
+Desarrollado con 💖 por [Anadalay](https://www.linkedin.com/in/anadalay-laureani/) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/).
